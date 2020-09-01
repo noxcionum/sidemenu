@@ -2,8 +2,11 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: `<div>
+  template: `
+  <sidebar></sidebar>
+  <div>
   <h1>Маршрутизация в Angular 10</h1>
+ 
   <router-outlet></router-outlet>
     </div>`,
   styleUrls: ['./app.component.scss']
