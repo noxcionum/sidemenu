@@ -2,7 +2,10 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
+  template: `<div>
+  <h1>Маршрутизация в Angular 10</h1>
+  <router-outlet></router-outlet>
+    </div>`,
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
